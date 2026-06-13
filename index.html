@@ -505,6 +505,7 @@
     </div>
 
     <button class="btn-calc" onclick="calculate()">📊 평균과 비교하기</button>
+    <a href="articles/" style="display:block;text-align:center;margin-top:14px;font-size:0.85rem;color:var(--primary);text-decoration:none;font-weight:600;" onclick="if(typeof gtag==='function')gtag('event','article_click',{from:'input'})">📚 자취 생활비 줄이는 법 · 청년 지원금 꿀팁 보기 →</a>
   </div>
 
   <!-- ── 결과 영역 ── -->
@@ -556,6 +557,24 @@
     <div class="card">
       <div class="card-title">💡 맞춤 절약 팁</div>
       <div id="tips-list"></div>
+    </div>
+
+    <!-- 관련 칼럼 (결과 본 직후 = 절약 동기 최고조 타이밍에 다음 행동 유도) -->
+    <div class="card">
+      <div class="card-title">📚 더 아껴보고 싶다면 — 자취 꿀팁</div>
+      <a href="articles/living-cost-average-2026.html" class="tip-item" style="text-decoration:none;color:inherit;cursor:pointer;" onclick="if(typeof gtag==='function')gtag('event','article_click',{from:'result',slug:'living-cost-average'})">
+        <span class="tip-icon">📊</span>
+        <span><strong>자취 생활비 평균은 얼마?</strong> 통계청 기준 한 달 지출 총정리</span>
+      </a>
+      <a href="articles/youth-rent-support-2026.html" class="tip-item" style="text-decoration:none;color:inherit;cursor:pointer;" onclick="if(typeof gtag==='function')gtag('event','article_click',{from:'result',slug:'youth-rent'})">
+        <span class="tip-icon">🏠</span>
+        <span><strong>2026 청년월세 지원</strong> 조건·금액 총정리 (월 최대 20만원)</span>
+      </a>
+      <a href="articles/youth-future-savings-2026.html" class="tip-item" style="text-decoration:none;color:inherit;cursor:pointer;" onclick="if(typeof gtag==='function')gtag('event','article_click',{from:'result',slug:'youth-savings'})">
+        <span class="tip-icon">💰</span>
+        <span><strong>청년미래적금</strong> 자격·금리·신청방법 (연 최고 8%+정부기여금)</span>
+      </a>
+      <a href="articles/" style="display:block;text-align:center;margin-top:10px;font-size:0.82rem;color:var(--primary);text-decoration:none;font-weight:600;">전체 칼럼 보기 →</a>
     </div>
 
     <!-- 광고 슬롯 (결과 중단) -->
